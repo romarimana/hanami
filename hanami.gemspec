@@ -23,11 +23,11 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.add_dependency "bundler",       ">= 1.16", "< 3"
-  spec.add_dependency "dry-cli",       "~> 0.6"
   spec.add_dependency "dry-core",      "~> 0.4"
   spec.add_dependency "dry-inflector", "~> 0.2"
   spec.add_dependency "dry-monitor",   "~> 0.3"
   spec.add_dependency "dry-system",    "~> 0.18", ">= 0.18.0"
+  spec.add_dependency "hanami-cli",    "~> 2.0.alpha"
 
   spec.add_development_dependency "rspec",     "~>  3.8"
   spec.add_development_dependency "rack-test", "~> 1.1"
